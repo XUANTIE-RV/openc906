@@ -1,0 +1,14 @@
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/top/tdt_dmi_define.h
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_apb_master.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/top/tdt_dmi.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dmi_pulse_sync.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/top/tdt_dmi_rst_top.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dmi_sync_dff.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/top/tdt_dmi_top.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dtm_chain.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dtm_ctrl.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dtm_idr.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dtm_io.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/debug/tdt_dtm_top.v
+${CODE_BASE_PATH}/gen_rtl/tdt/rtl/common/tdt_gated_clk_cell.v
+
