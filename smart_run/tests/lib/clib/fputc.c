@@ -16,7 +16,7 @@ limitations under the License.
 int fputc(int ch, FILE *stream)
 { 
   asm(
-      "li   x13, 0x6000fff8 \n\t" 
+      "li   x13, 0x10015000 \n\t" 
       "sw   %0, 0(x13) \n\t"
       : :"r" (ch): "x13" );
 }
