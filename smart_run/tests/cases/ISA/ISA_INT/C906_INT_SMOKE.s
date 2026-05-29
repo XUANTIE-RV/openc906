@@ -243,12 +243,18 @@ LUI:
 .global AUIPC
 AUIPC:
       auipc x2, 0x0
+      .option push
+      .option norvc
       li x3, 0xa00e
+      .option pop
       c.add x2, x3
       auipc x4, 0xa
       bne x2, x4, TEST_FAIL
       auipc x2, 0x0
+      .option push
+      .option norvc
       li x3, 0x80000014
+      .option pop
       addw x2, x3, x2
       auipc x4, 0x80000
       bne x2, x4, TEST_FAIL
