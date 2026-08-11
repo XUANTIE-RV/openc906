@@ -69,3 +69,9 @@ You can get the debugger, IDE and SDK from the url:https://occ.t-head.cn/communi
 #See the License for the specific language governing permissions and
 #limitations under the License.
 #*/
+
+## Resources
+
+Additional documentation and development resources for the C906 processor:
+
+* [XuanTie C906 Resources](https://www.xrvm.cn/product/xuantie/C906)
